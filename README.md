@@ -115,4 +115,66 @@ Configured trunks on S1 and S2:
 
 <img width="628" height="561" alt="Screenshot 2025-11-19 231621" src="https://github.com/user-attachments/assets/c8a02480-009e-4749-9397-a61edf643811" />
 
+# Step 4 – Configuring Router-on-a-Stick
+
+R1 was configured with subinterfaces corresponding to the VLANs:
+
+These subinterfaces act as default gateways for all VLANs and allow inter-VLAN communication.
+
+# Step 5 – Enabling STP Edge-Port Protection
+
+Enabled PortFast and BPDU Guard to prevent accidental STP loops:
+
+This helps protect the network against:
+
+- Misconfigured devices
+
+- Accidental loops
+
+- Rogue switches
+
+  <img width="330" height="424" alt="Screenshot 2025-11-19 231913" src="https://github.com/user-attachments/assets/dee0fba2-eaf9-4d77-94fd-c7bb04b3361c" />
+
+  <img width="625" height="112" alt="Screenshot 2025-11-19 232004" src="https://github.com/user-attachments/assets/2d000e3b-dc7a-4323-8c1c-edc56fd61617" />
+
+# Step 6 – Testing and Verification
+PC Verification
+
+Both PCs obtained:
+
+- Correct VLAN-specific addresses
+
+- Correct gateway (router subinterface)
+
+- Successful pings to:
+
+  - Their gateway
+
+  - The opposite VLAN
+
+  - Management SVI
+ 
+  <img width="565" height="271" alt="Screenshot 2025-11-19 232137" src="https://github.com/user-attachments/assets/b2f751c9-a54c-4e6a-b822-3d887ba63281" />
+# Conclusion
+
+This lab provided hands-on experience with:
+
+- VLAN creation
+
+- Switch hardening
+
+- Port security
+
+- Trunking
+
+- Inter-VLAN routing
+
+- Management interface setup
+
+- STP protections
+
+The final result was a secure, segmented multi-VLAN network with full routing capability and hardened switch access ports. This demonstrates real-world skills relevant to network administrators and security-focused IT roles.
   
+
+
+
