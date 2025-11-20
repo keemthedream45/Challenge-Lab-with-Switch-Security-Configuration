@@ -62,7 +62,9 @@ This lab develops hands-on skills in VLAN configuration, switch security, trunki
 # Topology
 
 <img width="717" height="695" alt="Screenshot 2025-11-19 225802" src="https://github.com/user-attachments/assets/20d4ee21-ba57-4af7-a864-9fd279530a1e" />
-![IMG_1202](https://github.com/user-attachments/assets/6b84d5fb-d6df-4df5-a6e4-d30e148a9bde)
+
+
+![IMG_1202](https://github.com/user-attachments/assets/7af56a9c-612c-442d-bc36-01015f6da8c4)
 
 # Steps
 Step 1 – Configuring VLANs and Management Access
